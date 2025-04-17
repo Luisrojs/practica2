@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+
+        --color-LightRed: hsl(0, 100%, 67%);
+        --color-OrangeyYellow: hsl(39, 100%, 56%);
+        --color-GreenTeal: hsl(166, 100%, 37%);
+        --color-CobaltBlue: hsl(234, 85%, 45%);
+}
