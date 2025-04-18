@@ -8,54 +8,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap"
+      rel="stylesheet"
     />
 
     <title>Frontend Mentor|Practica 2</title>
-
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: rgb(62, 82, 163);
-      }
-    </style>
-
   </head>
-  <body>
-    <section class="w-[375px] mx-auto bg-white mb-10 shadow-lg shadow-gray-600 ">
+
+  <body class="font-hanken-grotes bg-slate-50 ">
+    <section
+      class="w-[375px] mx-auto bg-white mb-10 shadow-lg shadow-gray-600 md:flex mt-6 md:w-[740px] md:h-[512px] rounded-3xl"
+    >
       <!-- parte azul -->
-      <div class=" bg-linear-to-b from-violet-500 to-blue-800 h-[356px] pt-8 px-10 text-center rounded-b-3xl">
-        <h2 class="mb-6 text-indigo-200 text-[18px]">Your Result</h2>
-        <div class="bg-linear-to-t from-violet-500 to-blue-800 rounded-full h-[140px] w-[140px] mx-auto grid place-content-center mb-6 text-[18px]">
-          <p class="text-white text-4xl font-bold">76</p>
+      <div
+        class="bg-linear-to-b from-violet-500 to-blue-800 h-[356px] pt-8 px-10 text-center rounded-b-3xl md:w-[370px] md:h-[512px] md:rounded-3xl md:pt-12"
+      >
+        <h2 class="mb-6 text-indigo-200 text-[18px] md:mb-10">Your Result</h2>
+        <div
+          class="bg-linear-to-t from-violet-500 to-blue-800 rounded-full h-[140px] w-[140px] mx-auto grid place-content-center mb-6 text-[18px] md:mb-10"
+        >
+          <p class="text-white text-4xl font-bold md:text-5xl">76</p>
           <p class="text-gray-300 text-[15px]">of 100</p>
         </div>
 
-        <p class="text-white text-[18px]">Great</p>
-        <p class="text-gray-300">
-          You scored higher than 65% 
-          of the people who have taken these tests.
+        <p class="text-white text-[18px] md:text-3xl md:mb-6">Great</p>
+        <p class="text-gray-300 md:text-xl">
+          You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
 
       <!-- parte blanca  -->
 
-      <div class="p-8 h-[456px] ">
-        <h2 class="text-[18px] mb-8 font-bold">Summary</h2>
+      <div class="p-8 h-[456px] md:w-[370px] md:py-14 md:px-10">
+        <h2 class="text-[18px] mb-8 font-bold md:text-2xl">Summary</h2>
 
-        <div class="bg-red-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center">
+        <div
+          class="bg-red-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center md:text-xl md:px-4"
+        >
           <!-- bloque alargado -->
           <p class="text-red-500 flex gap-2">
             <img src="../assets/images/icon-reaction.svg" alt="" />
-            <span class=" bg-amb-400">Reacction</span>
+            <span class="bg-amb-400">Reacction</span>
           </p>
           <p class="font-bold">80 <span class="text-gray-400">/100</span></p>
         </div>
-        <div class="bg-orange-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center">
+        <div
+          class="bg-orange-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center md:text-xl md:px-4"
+        >
           <!-- bloque alargado -->
           <p class="text-orange-500 flex gap-2">
             <img src="../assets/images/icon-memory.svg" alt="" />
@@ -63,7 +62,9 @@
           </p>
           <p class="font-bold">92<span class="text-gray-400">/100</span></p>
         </div>
-        <div class="bg-green-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center">
+        <div
+          class="bg-green-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center md:text-xl md:px-4"
+        >
           <!-- bloque alargado -->
           <p class="text-green-500 flex gap-2">
             <img src="../assets/images/icon-verbal.svg" alt="" />
@@ -71,7 +72,9 @@
           </p>
           <p class="font-bold">61<span class="text-gray-400">/100</span></p>
         </div>
-        <div class="bg-indigo-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center">
+        <div
+          class="bg-indigo-50 flex place-content-between p-3 rounded-lg mb-4 h-[54px] items-center md:text-xl md:px-4 md:mb-10"
+        >
           <!-- bloque alargado -->
           <p class="text-indigo-500 flex gap-2">
             <img src="../assets/images/icon-visual.svg" alt="" />
@@ -79,19 +82,30 @@
           </p>
           <p class="font-bold">72<span class="text-gray-400">/100</span></p>
         </div>
-        <button class="bg-gray-800 text-white w-full h-14 rounded-3xl text-[18px] hover:bg-gradient-to-b from-violet-500 to-blue-800 ">Continue</button>
+        <button
+          class="bg-gray-800 text-white w-full h-14 rounded-3xl text-[18px] hover:bg-gradient-to-b from-violet-500 to-blue-800 cursor-pointer"
+        >
+          Continue
+        </button>
       </div>
     </section>
 
     <!--  Memory 92 / 100 Verbal 61 / 100 Visual 72 / 100
     Continue -->
 
-    <div class="attribution">
+    <div class="text-center">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="text-indigo-600 font-bold"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://www.linkedin.com/in/lrojs-dev/">Luis Rojas</a>.
+      <a
+        class="text-indigo-600 font-bold"
+        href="https://www.linkedin.com/in/lrojs-dev/"
+        >Luis Rojas</a
+      >.
     </div>
   </body>
 </html>
